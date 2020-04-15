@@ -1,0 +1,30 @@
+1)
+- napisz funkcję y=r_wykladniczy(lambda,N)
+która przy pomocy metody odwracania dystrybuanty generuje i zwraca N realizacji zmiennej losowej o rozkładzie wykładniczym z parametrem lambda
+- napisz skrypt, w którym powyższa funkcja jest testowana (porównanie wartości teoretycznych i tych z wygenerowanej próbki: 
+średnia, wariancja, dystrybuanta, histogram porównany z gęstością teoretyczną)
+
+2)
+- napisz funkcję y=r_potegowy(p,N)
+która przy pomocy metody odwracania dystrybuanty generuje i zwraca N realizacji zmiennej losowej o dystrybuancie F(x)= x^p,
+0<x<1, p>0.
+
+- napisz skrypt, w którym powyższa funkcja jest testowana (porównanie wartości teoretycznych i tych z wygenerowanej próbki: 
+średnia, wariancja, dystrybuanta, histogram porównany z gęstością teoretyczną)
+
+3) napisz funkcję y=metoda_AR(x,p),
+która przy pomocy metody akceptacji-odrzucenia generuje jedną realizację zmiennej losowej dyskretnej przyjmującej wartości z wektora 
+x=[x1,...,xn] z prawdopodobieństwami p=[p1,...,pn].
+Uwaga. Można użyć jednej pętli 'while'.
+
+
+4) napisz funkcję y=metoda_AR2(x,p,N),
+która jest uogólnieniem powyższej funkcji metoda_AR, i która generuje N realizacji zmiennej dyskretnej metodą akceptacji-odrzucenia.
+Uwaga. Można użyć jednej pętli 'while' i jednej pętli 'for'.
+
+- napisz skrypt, w którym ta funkcja jest testowana dla wybranego rozkładu dyskretnego (porównanie wartości teoretycznych i tych z wygenerowanej próbki: 
+średnia, wariancja, dystrybuanta, histogram porównany z rozkładem teoretycznym)
+
+Pliki z programami proszę przesłać do dnia 31 marca 2020 r. na adres mailowy
+
+magdziarz.dydaktyka@gmail.com
